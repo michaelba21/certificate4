@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Certificates</title>
+    <meta charset="utf-8" />
+    <style>
+      /* Global image styling */
+      img {
+        width: 500px; /* Increased width for better visibility */
+        height: 400px; /* Increased height for better visibility */
+        object-fit: contain; /* Ensure images fit within the bounds without cropping */
+        display: block; /* Makes images block-level elements to ensure they stack vertically */
+        margin-bottom: 30px; /* Adds more space between images */
+        position: relative; /* Positioning for the animation effect */
+        border-radius: 10px; /* Rounded corners for the image */
+        animation: flower-border 5s infinite ease-in-out; /* Slowed down animation */
+      }
+
+      /* Keyframes for circle flower animation (box-shadow) */
+      @keyframes flower-border {
+        0% {
+          box-shadow: 0 0 15px 10px green, 0 0 25px 15px yellow, 0 0 35px 20px red, 0 0 45px 25px blue;
+        }
+        25% {
+          box-shadow: 0 0 25px 15px green, 0 0 35px 20px yellow, 0 0 45px 25px red, 0 0 55px 30px blue;
+        }
+        50% {
+          box-shadow: 0 0 35px 20px green, 0 0 45px 25px yellow, 0 0 55px 30px red, 0 0 65px 35px blue;
+        }
+        75% {
+          box-shadow: 0 0 25px 15px green, 0 0 35px 20px yellow, 0 0 45px 25px red, 0 0 55px 30px blue;
+        }
+        100% {
+          box-shadow: 0 0 15px 10px green, 0 0 25px 15px yellow, 0 0 35px 20px red, 0 0 45px 25px blue;
+        }
+      }
+
+      /* Specific styling for the Master Degree image */
+      #master-degree {
+        height: 500px; /* Increased height for Master Degree */
+        object-fit: contain; /* Ensure the image fits properly */
+      }
+
+      /* Styling for the JavaScript Degree image */
+      #javascript-degree {
+        width: 500px; /* Increased width for JavaScript Degree image */
+        height: 400px; /* Increased height */
+        object-fit: contain; /* Ensure the image fits properly */
+      }
+
+      /* Specific styling for the FreeCodeCamp logo */
+      #freecodecamp-logo {
+        width: 500px; /* Increased width */
+        height: auto; /* Maintain aspect ratio */
+        object-fit: contain; /* Ensure the image is fully visible */
+        margin-bottom: 30px; /* Adds space below the image */
+      }
+
+      /* Adjust spacing between title and images */
+      h1, h2 {
+        margin-bottom: 80px; /* Adds more space between the title and image */
+      }
+
+      /* Adds additional space specifically for the sections */
+      section {
+        margin-bottom: 40px; /* Adds more space between sections */
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Certificates of Michael Barak</h1>
+      <section>
+        <h2>Master Degree</h2>
+        <img src="masterp.png" alt="Master Degree" id="master-degree">
+      </section>
+      <section>
+        <h2>Bachelor Degree</h2>
+        <img src="bachelorp.png" alt="Bachelor Degree">
+      </section>
+      <section>
+        <h2>Responsive Web Development Degree</h2>
+        <img src="certificate wb.png" alt="Responsive Web Development Degree">
+      </section>
+      <section>
+        <h2>JavaScript Degree</h2>
+        <img src="java certificate.png" alt="JavaScript Degree" id="javascript-degree">
+      </section>
+      <section>
+        <h2>Front End Development Degree</h2>
+        <img src="front end.png" alt="Front End Development Degree">
+      </section>
+      <section>
+        <h2>Scientific Computing with Python</h2>
+        <img src="python degree.png" alt="Scientific Computing with Python">
+      </section>
+      <section>
+        <h2>Data Visualization</h2>
+        <img src="data vis.png" alt="Data Visualization">
+      </section>
+      <section>
+        <h2>Back End Development and API's</h2>
+        <img src="backend.png" alt="Back End Development and API's">
+      </section>
+      <section>
+        <h2>Cloud Computing Foundations</h2>
+        <img src="cloud .png" alt="Cloud Computing Foundations">
+      </section>
+    </main>
+  </body>
+</html>
